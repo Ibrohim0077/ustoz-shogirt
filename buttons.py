@@ -14,3 +14,6 @@ menyu.add(b1, b2, b3, b4, b5)
 phone_number = ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
 number = KeyboardButton(text='Telefon raqamni ulashish', request_contact=True)
 phone_number.add(number)
+
+
+print('hello')
